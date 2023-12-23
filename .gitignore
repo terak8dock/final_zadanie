@@ -1,0 +1,14 @@
+.idea/
+.venv
+Terraform
+*.log
+
+### SSH
+*.pem
+
+### Terraform
+*.tfvars
+.terraform/
+terraform.tfstate.d/
+terraform.tfstate
+terraform.tfstate.backup
