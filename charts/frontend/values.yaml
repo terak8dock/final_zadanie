@@ -9,4 +9,4 @@ service:
 env:
   reactappapihostport: ""
 ingress:
-  host: localhost
+  host: "localhost"
