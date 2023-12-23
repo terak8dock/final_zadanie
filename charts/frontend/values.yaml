@@ -8,3 +8,5 @@ service:
   port: 8080
 env:
   reactappapihostport: ""
+ingress:
+  host: localhost
