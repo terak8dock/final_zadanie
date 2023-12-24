@@ -8,6 +8,10 @@ service:
   port: 9080
 
 mongodb:
+  image:
+    registry: docker.io
+    repository: bitnami/mongodb
+    tag: 4.4.15-debian-10-r8
   auth:
     enabled: true
     rootPassword: rootpass
