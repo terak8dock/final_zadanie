@@ -11,6 +11,6 @@ mongodb:
   auth:
     enabled: true
     rootPassword: rootpass
-    username: user
-    password: password
-    database: mydatabase
+    username: db_user
+    password: Secret_db_password
+    database: dynamicky_nazov_db
