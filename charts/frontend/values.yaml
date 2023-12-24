@@ -7,6 +7,6 @@ service:
   type: ClusterIP
   port: 8080
 env:
-  reactappapihostport: ""
+  reactappapihostport: "http://backendapp-backend-service:9080"
 ingress:
   host: "localhost"
